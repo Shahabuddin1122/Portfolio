@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@400&display=swap");
+:root {
+    --color-mediumslateblue: #7b66ff;
+    --font-khula: Khula;
+}
+
+.tablechild {
+    position: absolute;
+    top: 18px;
+    left: 26px;
+    background-color: var(--color-mediumslateblue);
+    width: 159px;
+    height: 30px;
+  }
+  .projects {
+    position: absolute;
+    top: 21px;
+    left: 41px;
+    font-weight: 500;
+    color: var(--color-white);
+  }
+  .tableitem {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background-color: var(--color-paleturquoise);
+    width: 32px;
+    height: 238px;
+  }
+  .contents,
+  .tableof {
+    position: absolute;
+    left: 62px;
+    font-weight: 500;
+  }
+  .tableof {
+    top: 98px;
+    font-size: 18px;
+    display: inline-block;
+    width: 87px;
+    height: 18px;
+  }
+  .contents {
+    top: 116px;
+    font-size: var(--font-size-7xl);
+  }
+  .subtracticon {
+    position: absolute;
+    width: 178.8px;
+    height: 150px;
+    left: 302px;
+    top: 0;
+  }
+  .tableinner {
+    position: absolute;
+    top: 146.5px;
+    left: 66px;
+    width: 72px;
+    height: 3px;
+    background-color: var(--color-mediumslateblue);
+  }
+  .table {
+    position: relative;
+    background-color: var(--color-azure);
+    width: 480px;
+    height: 565px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .middle {
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    top: 30%;
+    left: 65px;
+  }
+  .middle .upper {
+    font-size: 1.2em;
+  }
+  .middle .upper .inner {
+    padding: 15px;
+    font-size: 0.9em;
+    font-family: var(--font-khula);
+  }

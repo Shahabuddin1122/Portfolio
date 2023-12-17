@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&family=Fira+Sans:wght@300&family=Inter&family=Merriweather&family=Open+Sans:ital,wght@1,500&family=Roboto+Condensed:wght@500&display=swap');
+:root {
+    --primary-color: #C5FFF8;
+    --secondary-color: #96EFFF;
+    --button : #5FBDFF;
+    --Background: #7B66FF;
+    --text: White;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book {
+  width: 510px;
+  height: 650px;
+  position: relative;
+  transition-duration: 1s;
+  perspective: 1500;
+}
+input {
+  display: none;
+}
+.cover,.backcover {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 0 0 5px bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+}
+.cover {
+  position: absolute;
+  transform-origin: center left;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  z-index: 99;
+
+}
+.cover label {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.backcover {
+  position: relative;
+  z-index: -1;
+  transform-origin: center right;
+  transition: transform 1s;
+}
+.backcover label {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.CoverHeader {
+  text-align: center;
+  margin-top: 45%;
+  font-size: 4em;
+}
+.cover .top,.maincover .top {
+  width: 100%;
+  height: 65%;
+  background-color: var(--primary-color);
+  display: flex;
+
+}
+.cover .top .left,.maincover .top .left {
+  width: 25%;
+  height: 100%;
+  border-right: 4px solid var(--text);
+}
+.cover .top .left > p,.maincover .top .left > p {
+  font-size: 45px;
+  word-spacing: 63px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 46px;
+}
+.cover .top .right,.maincover .top .right {
+  width: 75%;
+  height: 100%;
+  background-image: url('/public/WhatsApp_Image_2022-12-20_at_1.18.21_PM-removebg.png'); /* Adjust the path based on your project structure */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+.cover .down,.maincover .down {
+  width: 100%;
+  height: 30%;
+  background-color: var(--secondary-color);
+}
+.cover .down > .header,.maincover .down > .header {
+  width: 100%;
+  height: 10%;
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: block;
+}
+.cover .down .header h2 .highlight,.maincover .down .header h2 .highlight {
+    background-color: var(--text);
+}
+.cover .down .content,.maincover .down .content {
+  width: 97%;
+  height: 69%;
+  padding: 10px;
+}
+.cover .down .content .tableStyle,.maincover .down .content .tableStyle {
+  width: 100%;
+  height: 100%;
+}
+.cover .down .content .tableStyle .cellStyle,.maincover .down .content .tableStyle .cellStyle {
+  width: 50%;
+  padding: 8px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-all; 
+}
+
+
+.maincover {
+  position: absolute;
+  background-color: var(--secondary-color);
+  width: 100%;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition-duration: 1.5s;
+  z-index: 7;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 0 0 5px bisque;
+}
+
+.maincover .label {
+  box-sizing: border-box;
+  padding: 5px;
+  width: 30%;
+  height: 5%;
+  border: 4px solid var(--Background);
+  border-radius: 20px;
+  float: right;
+  cursor: pointer;
+  background-color: var(--primary-color);
+} 
+
+.pages {
+  position: absolute;
+  background-color: white;
+  width: 480px;
+  height: 565px;
+  border-radius: 0 15px 15px 0;
+  margin-top: 30px;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition-duration: 1.5s;
+}
+.pages > p {
+  font-size: 2em;
+  font-weight: 700;
+}
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  box-sizing: border-box;
+}
+
+.back {
+  transform: rotateY(180deg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  z-index: 99;
+}
+.next, .prev {
+  position: absolute;
+  bottom: 0em;
+  cursor: pointer;
+}
+.next {
+  right: 0em;
+  border: 1px solid var(--Background);
+  background-color: var(--button);
+  color: var(--Background);
+
+}
+.prev {
+  left: 0em;
+  border: 1px solid var(--Background);
+  background-color: var(--button);
+  color: var(--Background);
+}
+.next > p,.prev > p {
+  font-size: 33px;
+}
+#page1 {
+  z-index: 5;
+}
+#page2 {
+  z-index: 4;
+}
+#page3 {
+  z-index: 3;
+}
+#page4 {
+  z-index: 2;
+}
+#page5 {
+  z-index: 1;
+}
+
+#checkboxcover:checked ~ .book {
+  transform: translateX(200px);
+}
+#checkboxcover:checked ~ .book .cover{
+  transition: transform 1.5s, z-index 0.5s 0.5s;
+  transform: rotateY(-180deg);
+  z-index: 1;
+}
+#checkboxmaincover:checked ~ .book #cover{
+  transition: transform 1.5s, z-index 0.5s 0.5s;
+  transform: rotateY(-180deg);
+  z-index: 1;
+}
+#checkboxcover:checked ~ .book .pages{
+  box-shadow: 0 0 3px black;
+}
+#checkboxpage1:checked ~ .book #page1{
+  transition: transform 1.5s, z-index 0.5s 0.5s;
+  transform: rotateY(-180deg);
+  z-index: 2;
+}
+#checkboxpage2:checked ~ .book #page2{
+  transition: transform 1.5s, z-index 0.5s 0.5s;
+  transform: rotateY(-180deg);
+  z-index: 3;
+}
+#checkboxpage3:checked ~ .book #page3{
+  transition: transform 1.5s, z-index 0.5s 0.5s;
+  transform: rotateY(-180deg);
+  z-index: 4;
+}
+#checkboxpage4:checked ~ .book #page4{
+  transition: transform 1.5s, z-index 0.5s 0.5s;
+  transform: rotateY(-180deg);
+  z-index: 5;
+}
+#checkboxpage5:checked ~ .book #page5{
+  transition: transform 1.5s, z-index 0.5s 0.5s;
+  transform: rotateY(-180deg);
+  z-index: 6;
+}
+#checkboxbackcover:checked ~ .book {
+  transform: translateX(400px);
+}
+#checkboxbackcover:checked ~ .book .backcover{
+  transition: transform 1.5s, z-index 0.5s 0.5s;
+  transform: rotateY(-180deg);
+  z-index: 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.container .top {
+  width: 40%;
+  height: 10%;
+  background-color: var(--Background);
+}
+.container .top > h2 {
+    font-size: 2em;
+    padding: 10px;
+    color: white;
+}

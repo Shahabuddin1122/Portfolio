@@ -1,0 +1,116 @@
+.framechild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #373636;
+  width: 149px;
+  height: 283px;
+}
+.frameitem {
+  position: absolute;
+  top: 141px;
+  left: 74px;
+  width: 240px;
+  height: 320px;
+  object-fit: cover;
+}
+.frameinner {
+  position: absolute;
+  top: 149px;
+  left: 438px;
+  background-color: #5FBDFF;
+  width: 42px;
+  height: 312px;
+}
+.hiim {
+  margin: 0;
+}
+.developerteacher,
+.hiimshahabuddincontainer {
+  position: absolute;
+  left: 266px;
+  display: inline-block;
+  width: 172px;
+}
+.hiimshahabuddincontainer {
+  top: 251px;
+  font-size: 26px;
+  height: 73px;
+}
+.developerteacher {
+  top: 332px;
+  padding-top: 10px;
+  font-size: 17px;
+  letter-spacing: 0.04em;
+}
+.linediv {
+  position: absolute;
+  top: 128px;
+  left: 237px;
+  border-top: 4px solid var(--color-black);
+  box-sizing: border-box;
+  width: 94px;
+  height: 4px;
+  background-color: black;
+}
+.framechild1,
+.lineicon {
+  position: absolute;
+  top: 130px;
+  left: 325px;
+  width: 4.7px;
+  height: 84.1px;
+  background-color: black;
+}
+.framechild1 {
+  top: 473.6px;
+  left: 59px;
+  width: 90px;
+  height: 4.1px;
+  background-color: black;
+}
+.framechild2,
+.rectanglediv {
+  position: absolute;
+  top: 390px;
+  left: 57.4px;
+  width: 5.6px;
+  height: 84.1px;
+  background-color: black;
+}
+.rectanglediv {
+  top: 18px;
+  left: 325px;
+  background-color: #7b66ff;
+  width: 128px;
+  height: 32px;
+}
+.aboutme,
+.iaspiringcomputer {
+  position: absolute;
+  letter-spacing: 0.04em;
+}
+.aboutme {
+  top: 24px;
+  left: 344px;
+  color: #fff;
+}
+.iaspiringcomputer {
+  top: 488px;
+  left: 65px;
+  font-size: 15px;
+  font-family: var(--font-khula);
+  display: inline-block;
+  width: 388px;
+}
+.rectangleparent {
+  position: relative;
+  background-color: #e5f7fa;
+  width: 100%;
+  height: 565px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-black);
+  font-family: var(--font-josefin-sans);
+}

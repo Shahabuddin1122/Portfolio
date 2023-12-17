@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&family=Fira+Sans:wght@300&family=Inter&family=Merriweather&family=Open+Sans:ital,wght@1,500&family=Roboto+Condensed:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@400&display=swap");
+
+:root {
+    --primary-color: #C5FFF8;
+    --secondary-color: #96EFFF;
+    --button : #5FBDFF;
+    --Background: #7B66FF;
+    --text: White;
+    --font-inter: Inter;
+    --font-khula: Khula;
+    --font-josefin-sans: "Josefin Sans";
+  
+    /* font sizes */
+    --font-size-mini: 15px;
+    --font-size-smi: 13px;
+    --font-size-xs: 12px;
+    --font-size-xl: 20px;
+    --font-size-lgi: 19px;
+  
+    /* Colors */
+    --color-azure: #e5f7fa;
+    --color-paleturquoise: #c5fff8;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-mediumslateblue: #7b66ff;
+}
+
+.educationchild {
+    position: absolute;
+    top: 18px;
+    left: 26px;
+    background-color: var(--Background);
+    width: 159px;
+    height: 30px;
+  }
+  .education1 {
+    position: absolute;
+    top: 21px;
+    left: 41px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    color: var(--text);
+  }
+  .educationitem {
+    position: absolute;
+    top: 358px;
+    left: 26px;
+    background-color: var(--Background);
+    width: 132px;
+    height: 30px;
+  }
+  .language {
+    position: absolute;
+    top: 361px;
+    left: 41px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    color: var(--text);
+  }
+  .educationinner {
+    position: absolute;
+    top: 168px;
+    left: 84px;
+    width: 66px;
+    height: 65px;
+  }
+  .collage,
+  .school,
+  .university {
+    position: absolute;
+    top: 293px;
+    left: 62px;
+    font-size: var(--font-size-smi);
+    font-weight: 500;
+  }
+  .collage,
+  .university {
+    top: 194px;
+    left: 93px;
+  }
+  .university {
+    top: 95px;
+    left: 55px;
+    font-size: var(--font-size-xs);
+  }
+  .group-icon,
+  .rectanglediv {
+    position: absolute;
+    top: 196px;
+    left: 150px;
+    width: 42px;
+    height: 6px;
+  }
+  .rectanglediv {
+    top: 170px;
+    left: 200px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 225px;
+    height: 58px;
+  }
+  .educationchild1 {
+    position: absolute;
+    top: 71px;
+    left: 51px;
+    width: 66px;
+    height: 65px;
+  }
+  .educationchild2 {
+    position: absolute;
+    top: 99px;
+    left: 117px;
+    width: 42px;
+    height: 6px;
+  }
+  .educationchild3 {
+    position: absolute;
+    top: 73px;
+    left: 167px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 239px;
+    height: 58px;
+  }
+  .educationchild4 {
+    position: absolute;
+    top: 270px;
+    left: 51px;
+    width: 66px;
+    height: 65px;
+  }
+  .educationchild5 {
+    position: absolute;
+    top: 298px;
+    left: 117px;
+    width: 42px;
+    height: 6px;
+  }
+  .educationchild6 {
+    position: absolute;
+    top: 272px;
+    left: 167px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 225px;
+    height: 58px;
+  }
+  .ipassedmy {
+    margin: 0;
+  }
+  .ipassedmycontainer,
+  .ipassedmycontainer1,
+  .ipassedmycontainer2 {
+    position: absolute;
+    top: 278px;
+    left: 181px;
+    font-size: var(--font-size-smi);
+    font-weight: 500;
+    display: inline-block;
+    width: 201px;
+  }
+  .ipassedmycontainer1,
+  .ipassedmycontainer2 {
+    top: 175px;
+    left: 212px;
+    width: 212px;
+  }
+  .ipassedmycontainer2 {
+    top: 74px;
+    left: 177px;
+    width: 244px;
+    height: 73px;
+  }
+  .educationchild7,
+  .polygonicon {
+    position: absolute;
+    top: 446.3px;
+    left: 203.3px;
+    width: 56px;
+    height: 53.4px;
+  }
+  .educationchild7 {
+    left: 262.2px;
+    width: 55px;
+  }
+  .educationchild8 {
+    position: absolute;
+    top: 447.3px;
+    left: 320.3px;
+    width: 56px;
+    height: 52.4px;
+  }
+  .educationchild10,
+  .educationchild9 {
+    position: absolute;
+    top: 446.3px;
+    left: 144.3px;
+    width: 56px;
+    height: 53.4px;
+  }
+  .educationchild10 {
+    top: 402.3px;
+    left: 173.3px;
+    height: 52.4px;
+  }
+  .educationchild11,
+  .educationchild12 {
+    position: absolute;
+    top: 402.3px;
+    left: 231.4px;
+    width: 58px;
+    height: 52.3px;
+  }
+  .educationchild12 {
+    left: 291.3px;
+    width: 56px;
+    height: 52.4px;
+  }
+  .educationchild13 {
+    position: absolute;
+    top: 490.3px;
+    left: 231.4px;
+    width: 58px;
+    height: 52.3px;
+  }
+  .educationchild14,
+  .educationchild15 {
+    position: absolute;
+    top: 490.3px;
+    left: 292.2px;
+    width: 55px;
+    height: 52.4px;
+  }
+  .educationchild15 {
+    left: 172.3px;
+    width: 56px;
+  }
+  .java {
+    position: absolute;
+    top: 420px;
+    left: 182px;
+    font-weight: 500;
+  }
+  .educationchild16 {
+    position: absolute;
+    top: 402.3px;
+    left: 116.3px;
+    width: 56px;
+    height: 52.4px;
+  }
+  .c {
+    position: absolute;
+    top: 420px;
+    left: 132px;
+    font-weight: 500;
+  }
+  .educationchild17 {
+    position: absolute;
+    top: 490.3px;
+    left: 111.3px;
+    width: 56px;
+    height: 52.4px;
+  }
+  .kotlin {
+    position: absolute;
+    top: 508px;
+    left: 118px;
+    font-weight: 500;
+  }
+  .python {
+    top: 466px;
+    left: 268px;
+    font-size: var(--font-size-smi);
+  }
+  .assembly,
+  .c1,
+  .javascript,
+  .python {
+    position: absolute;
+    font-weight: 500;
+  }
+  .assembly {
+    top: 507px;
+    left: 175px;
+    font-size: 10px;
+  }
+  .c1,
+  .javascript {
+    display: inline-block;
+  }
+  .javascript {
+    top: 502px;
+    left: 242px;
+    font-size: var(--font-size-xs);
+    width: 42px;
+    height: 22px;
+  }
+  .c1 {
+    top: 508px;
+    left: 310px;
+    width: 27px;
+    height: 21px;
+  }
+  .educationchild18 {
+    position: absolute;
+    top: 446.3px;
+    left: 84.2px;
+    width: 55px;
+    height: 52.4px;
+  }
+  .c2,
+  .css,
+  .linux {
+    position: absolute;
+    top: 464px;
+    left: 94px;
+    font-weight: 500;
+  }
+  .css,
+  .linux {
+    top: 465px;
+    left: 328px;
+  }
+  .css {
+    top: 420px;
+    left: 299px;
+  }
+  .html {
+    top: 420px;
+    left: 239px;
+  }
+  .html,
+  .react,
+  .sql {
+    position: absolute;
+    font-weight: 500;
+  }
+  .react {
+    top: 466px;
+    left: 211px;
+    font-size: var(--font-size-smi);
+  }
+  .sql {
+    top: 465px;
+    left: 155px;
+  }
+  .educationchild19 {
+    position: absolute;
+    top: 147px;
+    left: 448px;
+    background-color: var(--button);
+    width: 34px;
+    height: 238px;
+  }
+  .education {
+    background-color: var(--color-azure);
+    width: 480px;
+    height: 565px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  

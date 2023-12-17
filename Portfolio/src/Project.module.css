@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Judson:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-khula: Khula;
+  --font-josefin-sans: "Josefin Sans";
+  --font-inter: Inter;
+  --font-bungee-outline: "Bungee Outline";
+  --font-judson: Judson;
+
+  /* font sizes */
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+  --font-size-smi: 13px;
+  --font-size-mini: 15px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-azure: #e5f7fa;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-mediumslateblue: #7b66ff;
+  --color-paleturquoise: #c5fff8;
+  --color-darkgray: #959595;
+}
+
+
+.project1child {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background-color: var(--color-paleturquoise);
+    width: 32px;
+    height: 238px;
+  }
+  .project1inner,
+  .project1item {
+    position: absolute;
+    top: 0;
+    left: 63px;
+    background-color: var(--color-mediumslateblue);
+    width: 155px;
+    height: 33px;
+    color: white;
+    padding: 7px;
+    font-weight: 700;
+  }
+  .project1inner {
+    top: 532px;
+    left: 290px;
+  }
+  .project1child1,
+  .project1child2,
+  .subtractchild {
+    position: absolute;
+    top: 33px;
+    left: 63px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 286px;
+    height: 183px;
+    background-color: #000;
+  }
+  .project1child1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .project1child2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+.subtracticon {
+  position: absolute;
+  top: 216px;
+  left: 354px;
+  width: 28.1px;
+  height: 44.4px;
+}
+.subtracticon1 {
+    position: absolute;
+  top: 487.7px;
+  left: 62px;
+  width: 29.2px;
+}
+  .project1child2,
+  .subtractchild {
+    top: 335px;
+    left: 163px;
+    width: 282px;
+    height: 197px;
+  }
+  .subtractchild {
+    top: 216px;
+    left: 314.1px;
+    border: 5px solid var(--color-black);
+    width: 68px;
+    height: 52px;
+  }
+  .subtractitem {
+    position: absolute;
+    top: 232.3px;
+    left: 275.1px;
+    background-color: var(--color-azure);
+    width: 75.4px;
+    height: 100.3px;
+    transform: rotate(-32.32deg);
+    transform-origin: 0 0;
+  }
+  .subtract {
+    position: relative;
+    background-color: var(--color-darkgray);
+    width: 28.1px;
+    height: 44.4px;
+  }
+  .subtractchild1,
+  .subtractinner {
+    position: absolute;
+    transform-origin: 0 0;
+  }
+  .subtractinner {
+    top: 530.4px;
+    left: 131.1px;
+    border: 5px solid var(--color-black);
+    box-sizing: border-box;
+    width: 68px;
+    height: 52px;
+    transform: rotate(178.53deg);
+  }
+  .subtractchild1 {
+    top: 513.1px;
+    left: 169.7px;
+    background-color: var(--color-azure);
+    width: 75.4px;
+    height: 100.3px;
+    transform: rotate(146.21deg);
+  }
+  .subtract1 {
+    position: relative;
+    background-color: var(--color-darkgray);
+    width: 28.1px;
+    height: 44.4px;
+    transform: rotate(178.53deg);
+    transform-origin: 0 0;
+  }
+  .project {
+    position: absolute;
+    top: 216px;
+    left: 63px;
+    font-size: 50px;
+    font-family: var(--font-judson);
+  }
+  .div,
+  .openandclose,
+  .thiscurtainopener {
+    position: absolute;
+    left: 68px;
+    display: inline-block;
+  }
+  .thiscurtainopener {
+    top: 272px;
+    width: 401px;
+    height: 61px;
+  }
+  .div,
+  .openandclose {
+    top: 335px;
+    width: 95px;
+  }
+  .div {
+    top: 198px;
+    left: 237px;
+    font-size: 40px;
+    font-family: var(--font-bungee-outline);
+    width: 67px;
+    height: 53px;
+  }
+  .tempcurtainautomator {
+    position: absolute;
+    top: 35px;
+    left: 358px;
+    font-size: var(--font-size-mini);
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #7a3b9a;
+    width: 119px;
+    word-break: break-all;
+
+  }
+  .anarduinoproject {
+    position: absolute;
+    top: 90px;
+    left: 353px;
+    font-size: var(--font-size-xs);
+    display: inline-block;
+    width: 136px;
+    height: 68px;
+  }
+  .project1 {
+    background-color: var(--color-azure);
+    width: 480px;
+    height: 565px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
