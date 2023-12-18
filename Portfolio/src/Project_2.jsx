@@ -16,7 +16,7 @@ const Project1 = () => {
       the right contains the ALU unit, and the last portion contains the Sequence Controller.
       </div>
       <div className={style.div}>02</div>
-      <div className={style.tempcurtainautomator}>4 bit microprocessor</div>
+      <div className={style.tempcurtainautomator} style={{"wordBreak":"break-all"}}>4 bit microprocessor</div>
       <div className={style.anarduinoproject}>
             Efficient 4-bit microprocessor for basic logic and arithmetic operations, along with jump and HLT operations.
       </div>

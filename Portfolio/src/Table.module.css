@@ -62,8 +62,8 @@
   .table {
     position: relative;
     background-color: var(--color-azure);
-    width: 480px;
-    height: 565px;
+    width: 470px;
+    height: 550px;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-xl);

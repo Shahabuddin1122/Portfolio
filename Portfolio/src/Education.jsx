@@ -10,7 +10,7 @@ const Education = () => {
       <img className={style.educationinner} alt="" src="https://res.cloudinary.com/dkotituzn/image/upload/v1702596427/shahabuddin/eifxuzjsvnw3g2cuis7j.svg" />
       <img className={style.educationchild2} alt="" src="https://res.cloudinary.com/dkotituzn/image/upload/v1702596427/shahabuddin/gns1zbnjujuodlsjk5ry.svg" />
       <div className={style.school}>School</div>
-      <div className={style.collage}>Collage</div>
+      <div className={style.collage}>College</div>
       <div className={style.university}>University</div>
       <img className={style.groupicon} style={{   
           "width": "45px",

@@ -16,8 +16,8 @@ const Project4 = () => {
        and access bills, doctors to manage schedules and bills, and admins to oversee operations seamlessly. 
       </div>
       <div className={style.div}>02</div>
-      <div className={style.tempcurtainautomator}>{`Hospital   Management System`}</div>
-      <div className={style.anarduinoproject}>
+      <div className={style.tempcurtainautomator} style={{"wordBreak":"break-all"}} >{`Hospital   Management System`}</div>
+      <div className={style.anarduinoproject} style={{"wordBreak":"break-all","width": "109px"}}>
       The Hospital Management System is a Java-based project aimed at optimizing and improving the efficiency of hospital operations. 
       </div>
     </div>

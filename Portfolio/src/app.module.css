@@ -21,11 +21,12 @@ body {
   align-items: center;
 }
 .book {
-  width: 510px;
-  height: 650px;
+  width: 483px;
+  height: 600px;
   position: relative;
   transition-duration: 1s;
   perspective: 1500;
+  top: 0;
 }
 input {
   display: none;
@@ -88,7 +89,7 @@ input {
   word-spacing: 63px;
   text-align: center;
   font-weight: 700;
-  line-height: 46px;
+  line-height: 43px;
 }
 .cover .top .right,.maincover .top .right {
   width: 75%;
@@ -160,8 +161,8 @@ input {
 .pages {
   position: absolute;
   background-color: white;
-  width: 480px;
-  height: 565px;
+  width: 470px;
+  height: 550px;
   border-radius: 0 15px 15px 0;
   margin-top: 30px;
   transform-origin: left;
@@ -304,4 +305,10 @@ input {
     font-size: 2em;
     padding: 10px;
     color: white;
+}
+@media (max-width:1024px) {
+  .book {
+    top: 0;
+    position: absolute;
+  }
 }
