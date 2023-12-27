@@ -17,7 +17,7 @@ const Project4 = () => {
       </div>
       <div className={style.div}>02</div>
       <div className={style.tempcurtainautomator} style={{"wordBreak":"break-all"}} >{`Hospital   Management System`}</div>
-      <div className={style.anarduinoproject} style={{"wordBreak":"break-all","width": "109px"}}>
+      <div className={style.anarduinoproject} style={{"wordBreak":"break-all"}}>
       The Hospital Management System is a Java-based project aimed at optimizing and improving the efficiency of hospital operations. 
       </div>
     </div>

@@ -11,9 +11,9 @@ const Project3 = () => {
       <img className={style.subtracticon} alt="" src="https://res.cloudinary.com/dkotituzn/image/upload/v1702596429/shahabuddin/eng49exy2sdyj5nlxjga.svg" />
       <img className={style.subtracticon1} alt="" src="https://res.cloudinary.com/dkotituzn/image/upload/v1702596427/shahabuddin/mzbr5u53amxf2w1iwe0o.svg" />
       <b className={style.project}>Project</b>
-      <div className={style.thiscurtainopener}>{`Heritage Craft Connect, a comprehensive MERN stack platform, fosters rural artisans,enabling seamless product transactions,`}</div>
+      <div className={style.thiscurtainopener}>{`Heritage Craft Connect, a comprehensive MERN stack platform, fosters rural artisans,enabling seamless product transactions,exploring craft `}</div>
       <div className={style.openandclose}>
-       exploring craft histories, and facilitating community engagement for both buyers and sellers. 
+       histories, and facilitating community engagement for both buyers and sellers. 
       </div>
       <div className={style.div}>01</div>
       <div className={style.tempcurtainautomator}>Heritage Craft Connect</div>

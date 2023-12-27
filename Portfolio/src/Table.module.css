@@ -85,3 +85,66 @@
     font-size: 0.9em;
     font-family: var(--font-khula);
   }
+  @media (max-width:500px) {
+    .table {
+      width: 185px;
+      height: 333px;
+      font-size: 10px;
+    }
+    .tablechild {
+      position: absolute;
+      top: 13px;
+      left: 26px;
+      background-color: var(--color-mediumslateblue);
+      width: 60px;
+      height: 14px;
+    }
+    .projects {
+      top: 13px;
+      left: 35px;
+    }
+    .tableitem {
+      position: absolute;
+      top: 38px;
+      left: 0;
+      background-color: var(--color-paleturquoise);
+      width: 15px;
+      height: 239px;
+    }
+    .subtracticon {
+      position: absolute;
+      width: 74.8px;
+      height: 63px;
+      left: 105px;
+      top: 0;
+    }
+    .tableof {
+      top: 60px;
+      font-size: 15px;
+      display: inline-block;
+      width: 63px;
+      height: 18px;
+      left: 26px;
+    }
+    .contents {
+      top: 77px;
+      font-size: 18px;
+      display: inline-block;
+      width: 73px;
+      height: 18px;
+      left: 27px;
+    }
+    .tableinner {
+      top: 100.5px;
+      left: 30px;
+      width: 79px;
+      height: 2px;
+    }
+    .middle {
+      left: 41px;
+      top: 31%;
+    }
+    .middle .upper {
+      font-size: 11px;
+    }
+  }

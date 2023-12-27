@@ -29,7 +29,7 @@ const App = () => {
                         <div className={style.left}>
                             <p>S t o r y <span style={{"margin":"-5px"}}></span>  b o o k</p>
                         </div>
-                        <div className={style.right}>
+                        <div className={style.right}><img src="https://res.cloudinary.com/dkotituzn/image/upload/v1702596447/shahabuddin/nvvpbo1pktk9gf4icrpm.png" alt="" />
                         </div>
                     </div>
                     <div className={style.down}>

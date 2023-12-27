@@ -11,14 +11,14 @@ const Project5 = () => {
       <img className={style.subtracticon} alt="" src="https://res.cloudinary.com/dkotituzn/image/upload/v1702596429/shahabuddin/eng49exy2sdyj5nlxjga.svg" />
       <img className={style.subtracticon1} alt="" src="https://res.cloudinary.com/dkotituzn/image/upload/v1702596427/shahabuddin/mzbr5u53amxf2w1iwe0o.svg" />
       <b className={style.project}>Project</b>
-      <div className={style.thiscurtainopener}>{`Welcome to our Pharmacy Management System, an integrated DBMS project catering to patients, doctors, `}</div>
+      <div className={style.thiscurtainopener}>{`Welcome to our Pharmacy Management System, an integrated DBMS project catering to patients, doctors,managers, and employees. `}</div>
       <div className={style.openandclose}>
-       exploring craft histories, and facilitating community engagement for both buyers and sellers. 
+        Streamlining appointments, schedules, profiles, and billing for efficient healthcare operations.
       </div>
       <div className={style.div}>03</div>
       <div className={style.tempcurtainautomator}>{`Pharmacy   Management System`}</div>
       <div className={style.anarduinoproject}>
-      managers, and employees. Streamlining appointments, schedules, profiles, and billing for efficient healthcare operations.
+          Efficient Pharmacy Management System for seamless healthcare operations and enhanced user experiences.
       </div>
     </div>
   );

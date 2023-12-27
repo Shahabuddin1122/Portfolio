@@ -354,6 +354,13 @@
     width: 34px;
     height: 238px;
   }
+  .groupicon {
+    width: 46px;
+    height: 25px;
+    position: absolute;
+    top: 185px;
+    left: 148px;
+  }
   .education {
     background-color: var(--color-azure);
     width: 470px;
@@ -365,3 +372,314 @@
     font-family: var(--font-inter);
   }
   
+  @media (max-width:500px) {
+    .education {
+      width: 185px;
+      height: 332px;
+    }
+    .educationchild {
+    top: 11px;
+    left: 12px;
+    width: 74px;
+    height: 15px;
+    }
+    .education1 {
+      top: 11px;
+      left: 20px;
+      font-size: 11px;
+    }
+    .educationitem {
+    top: 205px;
+    left: 11px;
+    width: 70px;
+    height: 15px;
+    }
+    .language {
+      top: 206px;
+      left: 18px;
+      font-size: 10px;
+    }
+    .educationchild1 {
+      top: 27px;
+      left: 16px;
+      width: 30px;
+      height: 50px;
+    }
+    .educationchild2 {
+      top: 49px;
+      left: 46px;
+      width: 24px;
+      height: 6px;
+    }
+    .educationinner {
+      top: 94px;
+      left: 38px;
+      width: 30px;
+      height: 47px;
+    }
+    .collage {
+      top: 113px;
+      left: 42px;
+      font-size: 6px; 
+    }
+    .university {
+      top: 48px;
+      left: 19px;
+      font-size: 5px;
+    }
+
+    .educationchild4 {
+      top: 156px;
+      left: 15px;
+      width: 30px;
+      height: 43px;  
+    }
+    .educationchild5 {
+      top: 176px;
+      left: 45px;
+      width: 24px;
+      height: 5px;
+    }
+    .school {
+      top: 173px;
+      left: 19px;
+      font-size: 7px;
+    }
+    .ipassedmycontainer {
+      top: 160px;
+      left: 73px;
+      font-size: 7px;
+      font-weight: 500;
+      display: inline-block;
+      width: 95px;
+    }
+    .educationchild6 {
+      top: 155px;
+      left: 70px;
+      width: 101px;
+      height: 39px;
+    }
+    .ipassedmycontainer2 {
+      top: 35px;
+      left: 75px;
+      width: 102px;
+      height: 46px;
+      font-size: 7px;
+    }
+    .educationchild3 {
+      top: 32px;
+      left: 72px;
+      width: 107px;
+      height: 48px;
+    }
+    .ipassedmycontainer1 {
+      top: 101px;
+      left: 96px;
+      font-size: 7px;
+      width: 83px;
+    }
+    .rectanglediv {
+      top: 97px;
+      left: 93px;
+      width: 89px;
+      height: 43px;
+    }
+    .polygonicon {
+      top: 254px;
+      left: 66px;
+      height: 30px;
+    }
+    .educationchild19 {
+      top: 39px;
+      left: 183px;
+      width: 2px;
+    }
+    .educationchild8 {
+      left: 128.2px;
+      width: 61px;
+      height: 30px;
+      top: 254px;
+    }
+    .educationchild7 {
+      left: 95.2px;
+      width: 61px;
+      height: 30px;
+      top: 254px;
+    }
+    .educationchild18 {
+      position: absolute;
+      top: 254.3px;
+      left: 32.2px;
+      width: 61px;
+      height: 30px;
+    }
+    .educationchild17 {
+      position: absolute;
+      top: 279px;
+      left: 16.2px;
+      width: 61px;
+      height: 30px;
+    }
+    .educationchild16 {
+      position: absolute;
+      top: 228px;
+      left: 16.2px;
+      width: 61px;
+      height: 30px;
+    }
+    .educationchild15 {
+      left: 48.3px;
+      width: 61px;
+      height: 30px;
+      top: 279px;
+    }
+    .educationchild14 {
+      position: absolute;
+      top: 279.3px;
+      left: 112.2px;
+      width: 61px;
+      height: 30px;
+    }
+    .educationchild14 {
+      position: absolute;
+      top: 279.3px;
+      left: 112.2px;
+      width: 61px;
+      height: 30px;
+    }
+    .educationchild13 {
+      position: absolute;
+      top: 279.3px;
+      left: 80.4px;
+      width: 61px;
+      height: 30px;
+    }
+    .educationchild9 {
+      position: absolute;
+      top: 253.3px;
+      left: -0.6px;
+      width: 61px;
+      height: 30px;
+    }
+    .educationchild10 {
+      position: absolute;
+      top: 228.3px;
+      left: 48.4px;
+      width: 61px;
+      height: 30px;
+    }
+    .educationchild11 {
+      position: absolute;
+      top: 228.3px;
+      left: 80.4px;
+      width: 61px;
+      height: 30px;
+    }
+    .educationchild12 {
+      position: absolute;
+      top: 228.3px;
+      left: 112.4px;
+      width: 61px;
+      height: 30px;
+    }
+    .groupicon {
+      width: 24px;
+      height: 10px;
+      position: absolute;
+      top: 110px;
+      left: 68px;
+    }
+    .java {
+      position: absolute;
+      top: 235px;
+      left: 69px;
+      font-size: 9px;
+      font-weight: 500;
+    }
+    .c {
+      position: absolute;
+      top: 235px;
+      left: 41px;
+      font-size: 9px;
+      font-weight: 500;
+    }
+    .kotlin {
+      position: absolute;
+      top: 237px;
+      left: 100px;
+      font-size: 8px;
+      font-weight: 500;
+    }
+    .python {
+      position: absolute;
+      top: 237px;
+      left: 131px;
+      font-size: 7px;
+      font-weight: 500;
+    }
+    .assembly {
+      position: absolute;
+      top: 265px;
+      left: 147px;
+      font-size: 5px;
+      font-weight: 500;
+    }
+    .javascript {
+      position: absolute;
+      top: 266px;
+      left: 115px;
+      font-size: 4px;
+      font-weight: 500;
+    }
+    .c1 {
+      position: absolute;
+      top: 263px;
+      left: 91px;
+      font-size: 9px;
+      font-weight: 500;
+    }
+    .c2 {
+      position: absolute;
+      top: 263px;
+      left: 53px;
+      font-size: 9px;
+      font-weight: 500;
+    }
+    .linux {
+      position: absolute;
+      top: 263px;
+      left: 19px;
+      font-size: 8px;
+      font-weight: 500;
+    }
+    .css {
+      position: absolute;
+      top: 290px;
+      left: 38px;
+      font-size: 8px;
+      font-weight: 500;
+    }
+    .html {
+      position: absolute;
+      top: 290px;
+      left: 68px;
+      font-size: 8px;
+      font-weight: 500;
+    }
+    .react {
+      position: absolute;
+      top: 290px;
+      left: 100px;
+      font-size: 8px;
+      font-weight: 500;
+    }
+    .sql {
+      position: absolute;
+      top: 290px;
+      left: 135px;
+      font-size: 8px;
+      font-weight: 500;
+    }
+
+
+  }

@@ -217,4 +217,104 @@ body {
     color: var(--color-black);
     font-family: var(--font-inter);
   }
+  @media (max-width:500px) {
+    .project1 {
+      width: 185px;
+      height: 331px;
+    }
+    .project1child {
+      top: 69px;
+      left: 0;
+      background-color: var(--color-paleturquoise);
+      width: 10px;
+      height: 175px;
+    }
+    .project1item {
+      top: 1px;
+      left: 20px;
+      background-color: var(--color-mediumslateblue);
+      width: 60px;
+      height: 18px;
+      padding: 5px;
+    }
+    .project1item > p {
+      font-size: 9px;
+    }
+    .project1child1 {
+      top: 19px;
+      left: 20px;
+      border: 1px solid var(--color-black);
+      box-sizing: border-box;
+      width: 105px;
+      height: 104px;
+    }
+    .project1child2 {
+      top: 200px;
+      left: 69px;
+      width: 114px;
+      height: 118px;
+    }
+    .project1inner {
+      top: 318px;
+      left: 114px;
+      width: 70px;
+      height: 11px;
+    }
+    .project {
+      top: 120px;
+      left: 20px;
+      font-size: 26px;
+    }
+    .thiscurtainopener {
+      top: 146px;
+      width: 163px;
+      height: 52px;
+      left: 20px;
+      font-size: 9px;
+      overflow-wrap: break-word;
+      word-break: break-all;
+    }
+    .openandclose {
+      top: 190px;
+      width: 48px;
+      left: 20px;
+      font-size: 9px;
+    }
+    .div {
+      top: 106px;
+      left: 105px;
+      font-size: 23px;
+      font-family: var(--font-bungee-outline);
+      width: 35px;
+      height: 27px;
+    }
+    .tempcurtainautomator {
+      width: 56px;
+      top: 18px;
+      left: 128px;
+      font-size: 7px;
+    }
+    .anarduinoproject {
+      top: 45px;
+      left: 129px;
+      font-size: 7px;
+      display: inline-block;
+      width: 53px;
+      height: 68px;
+    }
+    .subtracticon {
+      position: absolute;
+      top: 121px;
+      left: 128px;
+      width: 11.1px;
+      height: 21.4px;
+    }
+    .subtracticon1 {
+      position: absolute;
+      top: 288px;
+      left: 17px;
+      width: 11.1px;
+      height: 21.4px;
+    }
+  }
   
