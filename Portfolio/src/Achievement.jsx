@@ -8,7 +8,7 @@ const Achievement = () => {
                     <div className={style.slide}>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/Web_dev.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703710205/shahabuddin/f9xezwku0pskpuxxop4t.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Web Development</h2>
@@ -17,7 +17,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/Building Chatbots in python.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703709692/shahabuddin/ghjgq3vw0bopgxcecogx.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Building Chatbots by Python</h2>
@@ -26,7 +26,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/IOT.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703709885/shahabuddin/fswrwqzcq9lvuhbphrnm.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Internet Of Things</h2>
@@ -35,7 +35,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/machine learning.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703709985/shahabuddin/ryytl2vxzikkmx8kwaez.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Machine Learning</h2>
@@ -44,7 +44,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/Natural Language Processing in Python.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703710037/shahabuddin/rizjanfztv3jurymk1qy.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Natural Language Processing</h2>
@@ -53,7 +53,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/Data Science.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703709835/shahabuddin/knk6izdbi5ketyln4aaw.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Data Science</h2>
@@ -62,7 +62,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/Blockchain_page-0001.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703709640/shahabuddin/qxylj7s4hmhv8kqvjv69.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>BlockChain</h2>
@@ -71,7 +71,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/Sentiment Analysis in Python.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703710086/shahabuddin/dnpfpmr4io8bzc2z9ok3.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Sentiment Analysis for NLP</h2>
@@ -80,7 +80,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/Spoken Language processing.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703710172/shahabuddin/l0bwmlah0lby6se6wrg9.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Spoken Language processing for NLP</h2>
@@ -89,7 +89,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/Cloud Computing.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703709739/shahabuddin/bxvafrq9qhqdivyv3w5z.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Cloud Computing</h2>
@@ -98,7 +98,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/Advanced NLP with spacy.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703709531/shahabuddin/e1tsxojaixxuep1mbihj.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Advanced NLP</h2>
@@ -107,7 +107,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/create logo.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703709788/shahabuddin/ci1mh9nxlfl1jbv4pnr9.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Logo Design</h2>
@@ -116,7 +116,7 @@ const Achievement = () => {
                         </div>
                         <div className={style.wrapper}>
                             <div className={style.upper}>
-                                <img src="./public/learn HTML.jpg" alt="" />
+                                <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1703709932/shahabuddin/h6qomqmtdjzwhcaaxshm.jpg" alt="" />
                             </div>
                             <div className={style.lower}>
                                 <h2>Advance HTML </h2>
