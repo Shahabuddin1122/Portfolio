@@ -10,6 +10,7 @@ import Project2 from './Project_2.jsx';
 import Project3 from './Project_3.jsx';
 import Project4 from './Project_4.jsx';
 import Project5 from './Project_5.jsx';
+import Achievement from './Achievement.jsx'
 const App = () => {
 
   return (
@@ -113,7 +114,7 @@ const App = () => {
               </div>
               <div className={style.pages} id={style.page5}>
                   <div className={style.front}>
-                      <p>Page5</p>
+                      <Achievement/>
                       <label htmlFor={style.checkboxpage5} className={style.next}><p>&gt;</p></label>
                   </div>
                   <div className={style.back}>
