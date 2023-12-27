@@ -37,29 +37,20 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-  
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
-  
+
       - name: Download Artifact
         uses: actions/download-artifact@v2
         with:
           name: build
-          path: Portfolio/build
-  
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-  
-      - name: Install Firebase CLI
-        run: npm install -g firebase-tools
-  
+          path: Portfolio/build   
+
       - name: Deploy to Firebase
-        run: |
-          cd Portfolio  # Change to the project directory
-          npm install  # Install project dependencies
-          npm firebase deploy --only hosting --public build
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting --public Portfolio/build
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
