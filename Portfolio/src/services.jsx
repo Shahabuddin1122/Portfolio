@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import style from "./services.module.css";
-
+import toast from "react-hot-toast";
 const services = () => {
   const [textareaHeight, setTextareaHeight] = useState("auto");
   const [name, setName] = useState("");
@@ -16,31 +16,37 @@ const services = () => {
     setName(event.target.value);
   };
   const emailValidity_sub = (e) => {
-    const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(name);
-    if (!isValidEmail) {
-      console.log("Invalid email format!");
-    }
-    console.log(email);
-    console.log(name);
-    console.log(message);
-
     e.preventDefault();
+    const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    if (!isValidEmail) {
+      toast.error("Invalid email format");
+    } else {
+      document.getElementById("sendButton").disabled = true;
+      document.getElementById("sendButton").style.backgroundColor = "#e3e6e6";
 
-    emailjs
-      .send(
-        "service_50p4nqk",
-        "template_0t981ji",
-        { name, email, message },
-        "fD-CrMLpxICJm71Ek"
-      )
-      .then(
-        (response) => {
-          console.log("Sent successfully:", response);
-        },
-        (error) => {
-          console.log("Failed to send:", error);
-        }
-      );
+      // Enable the button after 10 minutes (600,000 milliseconds)
+      setTimeout(function () {
+        document.getElementById("sendButton").disabled = false;
+        document.getElementById("sendButton").style.backgroundColor = "#5fbdff";
+      }, 300000);
+
+      emailjs
+        .send(
+          "service_50p4nqk",
+          "template_0t981ji",
+          { name, email, message },
+          "fD-CrMLpxICJm71Ek"
+        )
+        .then(
+          (response) => {
+            toast.success("Sucessfully send");
+            toast.success("After 5 minute, you can resend message");
+          },
+          (error) => {
+            toast.error("Error to send message");
+          }
+        );
+    }
   };
   return (
     <>
@@ -106,7 +112,9 @@ const services = () => {
               ></textarea>
             </div>
             <div className={style.button}>
-              <button onClick={emailValidity_sub}>Send</button>
+              <button id="sendButton" onClick={emailValidity_sub}>
+                Send
+              </button>
             </div>
           </div>
         </div>

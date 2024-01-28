@@ -1,13 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import Routing from './Routing.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
+import Routing from "./Routing.jsx";
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-        <Routing/>
+      <div>
+        <Toaster position="top-center" reverseOrder={false} />
+      </div>
+      <Routing />
     </BrowserRouter>
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
