@@ -8,7 +8,7 @@ const First_page = () => {
     <div className={styles.card}>
       <div className={styles.lines}></div>
       <div className={styles.imgbox}>
-        <img src="1.jpg" alt="Profile" />
+        <img src="https://res.cloudinary.com/dkotituzn/image/upload/v1702596430/shahabuddin/idrfvp3czeg6goqvgnth.jpg" alt="Profile" />
       </div>
       <div className={styles.content}>
         <div className={styles.details}>
