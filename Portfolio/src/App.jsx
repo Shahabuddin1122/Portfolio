@@ -11,6 +11,8 @@ import Project3 from "./Project_3.jsx";
 import Project4 from "./Project_4.jsx";
 import Project5 from "./Project_5.jsx";
 import Services from "./services.jsx";
+import MiniProject2 from "./miniproject2.jsx";
+import MiniProject1 from "./miniproject1.jsx";
 import Achievement from "./Achievement.jsx";
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
       <input type="checkbox" id={style.checkboxpage3} />
       <input type="checkbox" id={style.checkboxpage4} />
       <input type="checkbox" id={style.checkboxpage5} />
+      <input type="checkbox" id={style.checkboxpage6} />
       <input type="checkbox" id={style.checkboxbackcover} />
       <div className={style.book}>
         <div className={style.maincover} id={style.cover}>
@@ -149,14 +152,28 @@ const App = () => {
         </div>
         <div className={style.pages} id={style.page5}>
           <div className={style.front}>
-            <Achievement />
+            <MiniProject1 />
             <label htmlFor={style.checkboxpage5} className={style.next}>
               <p>&gt;</p>
             </label>
           </div>
           <div className={style.back}>
-            <Services />
+            <MiniProject2 />
             <label htmlFor={style.checkboxpage5} className={style.prev}>
+              <p>&lt;</p>
+            </label>
+          </div>
+        </div>
+        <div className={style.pages} id={style.page6}>
+          <div className={style.front}>
+            <Achievement />
+            <label htmlFor={style.checkboxpage6} className={style.next}>
+              <p>&gt;</p>
+            </label>
+          </div>
+          <div className={style.back}>
+            <Services />
+            <label htmlFor={style.checkboxpage6} className={style.prev}>
               <p>&lt;</p>
             </label>
           </div>

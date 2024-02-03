@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&family=Fira+Sans:wght@300&family=Inter&family=Merriweather&family=Open+Sans:ital,wght@1,500&family=Roboto+Condensed:wght@500&display=swap");
+:root {
+  --primary-color: #c5fff8;
+  --secondary-color: #96efff;
+  --button: #5fbdff;
+  --Background: #7b66ff;
+  --text: White;
+}
+.card {
+  width: 100%;
+  height: 150px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+.card .left {
+  width: 60%;
+  height: 100%;
+}
+.card .left > img {
+  width: 100%;
+  height: 100%;
+}
+.card .left > video {
+  width: 100%;
+  height: 100%;
+}
+.card .right {
+  width: 40%;
+  height: 100%;
+  padding-left: 10px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+.card .right > h3 {
+  margin: 3px 0px;
+  text-align: left;
+}
+.card .right > h5 {
+  font-size: 0.8em;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+@media (max-width: 500px) {
+  .card {
+    width: 100%;
+    height: 94px;
+  }
+  .card .right > h3 {
+    font-size: 12px;
+    margin: 1px 0px;
+  }
+  .card .right > h5 {
+    font-size: 9px;
+    font-weight: 400;
+    padding-bottom: 3px;
+  }
+  .card .right > p {
+    font-size: 7px;
+  }
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&family=Fira+Sans:wght@300&family=Inter&family=Merriweather&family=Open+Sans:ital,wght@1,500&family=Roboto+Condensed:wght@500&display=swap");
+:root {
+  --primary-color: #c5fff8;
+  --secondary-color: #96efff;
+  --button: #5fbdff;
+  --Background: #7b66ff;
+  --text: White;
+}
+.container {
+  width: 470px;
+  height: 550px;
+  background-color: var(--primary-color);
+  position: relative;
+}
+.container .header {
+  width: 30%;
+  height: 30px;
+  background-color: var(--Background);
+  margin-left: 10%;
+}
+.container .header > h2 {
+  color: white;
+  font-size: 1.1em;
+  margin-left: 8px;
+  padding-top: 3px;
+}
+.container .middle {
+  width: 90%;
+  height: 89%;
+  margin-left: 10%;
+}
+.container .footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: 30px;
+  background-color: var(--Background);
+  margin-right: 5%;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 185px;
+    height: 331px;
+  }
+  .container .header {
+    width: 35%;
+    height: 20px;
+    background-color: var(--Background);
+    margin-left: 10%;
+  }
+  .container .header > h2 {
+    color: white;
+    font-size: 0.6em;
+    margin-left: 8px;
+    padding-top: 3px;
+  }
+  .container .footer {
+    width: 40%;
+    height: 20px;
+  }
+}
