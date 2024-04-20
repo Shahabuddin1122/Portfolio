@@ -10,7 +10,7 @@ const Table = () => {
         {
           id: 2,
           name: 'Software based',
-          items: ['Hospital Management System', 'Pharmacy Management System', 'Heritage Craft Connect', 'AI based personal Assistance'],
+          items: ['Hospital Management System', 'Pharmacy Management System', 'Heritage Craft Connect', 'AI based personal Assistance','WhatsApp Clone','Bidding website'],
         },
       ];
   return (

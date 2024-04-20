@@ -183,8 +183,9 @@
   }
   .services .contract .inputBox .text > textarea {
     font-size: 8px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     max-height: 80px;
+    min-height: 50px;
   }
   .services .contract .inputBox .email > input {
     font-size: 7px;

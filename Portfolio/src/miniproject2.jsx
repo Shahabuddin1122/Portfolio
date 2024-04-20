@@ -22,14 +22,8 @@ const miniProject2 = () => {
       description:
         "This is a Dynamic website with custom UI and have the functionality of Auth0",
     },
-    {
-      src: "https://res.cloudinary.com/dkotituzn/video/upload/v1706974647/shahabuddin/yctganlpqrbbndgzbox2.mp4",
-      name: "Grocery website",
-      code: "Html,Css,Java Sccript",
-      description: "This is a static grocery website",
-    },
+
   ];
-  console.log(videoSrc[1].name);
   return (
     <>
       <div className={style.container}>

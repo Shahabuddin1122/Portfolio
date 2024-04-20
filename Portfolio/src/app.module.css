@@ -153,7 +153,7 @@ input {
   transform-style: preserve-3d;
   transform: rotateY(0deg);
   transition-duration: 1.5s;
-  z-index: 7;
+  z-index: 8;
   border-radius: 0 15px 15px 0;
   box-shadow: 0 0 5px bisque;
 }
@@ -225,21 +225,24 @@ input {
   font-size: 33px;
 }
 #page1 {
-  z-index: 6;
+  z-index: 7;
 }
 #page2 {
-  z-index: 5;
+  z-index: 6;
 }
 #page3 {
-  z-index: 4;
+  z-index: 5;
 }
 #page4 {
-  z-index: 3;
+  z-index: 4;
 }
 #page5 {
-  z-index: 2;
+  z-index: 3;
 }
 #page6 {
+  z-index: 2;
+}
+#page7 {
   z-index: 1;
 }
 
@@ -289,13 +292,18 @@ input {
   transform: rotateY(-180deg);
   z-index: 7;
 }
+#checkboxpage7:checked ~ .book #page7 {
+  transition: transform 1.5s, z-index 0.5s 0.5s;
+  transform: rotateY(-180deg);
+  z-index: 8;
+}
 #checkboxbackcover:checked ~ .book {
   transform: translateX(400px);
 }
 #checkboxbackcover:checked ~ .book .backcover {
   transition: transform 1.5s, z-index 0.5s 0.5s;
   transform: rotateY(-180deg);
-  z-index: 8;
+  z-index: 9;
 }
 
 .container {

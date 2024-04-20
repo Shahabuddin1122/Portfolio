@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import style from "./services.module.css";
 import toast from "react-hot-toast";
-const services = () => {
+const Services = () => {
   const [textareaHeight, setTextareaHeight] = useState("auto");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -39,10 +39,12 @@ const services = () => {
         )
         .then(
           (response) => {
+            console.log(response)
             toast.success("Sucessfully send");
             toast.success("After 5 minute, you can resend message");
           },
           (error) => {
+            console.error(error)
             toast.error("Error to send message");
           }
         );
@@ -57,6 +59,7 @@ const services = () => {
         <div className={style.middle}>
           <ul>
             <li>UI/UX Design</li>
+            <li>Poster Design</li>
             <li>Website development</li>
             <li>App development</li>
             <li>Software project management</li>
@@ -123,4 +126,4 @@ const services = () => {
     </>
   );
 };
-export default services;
+export default Services;

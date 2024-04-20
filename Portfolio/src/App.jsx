@@ -1,6 +1,3 @@
-// App.js
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import style from "./app.module.css";
 import Intro from "./intro.jsx";
 import Education from "./Education.jsx";
@@ -14,6 +11,8 @@ import Services from "./services.jsx";
 import MiniProject2 from "./miniproject2.jsx";
 import MiniProject1 from "./miniproject1.jsx";
 import Achievement from "./Achievement.jsx";
+import Project6 from "./Project_6.jsx";
+import Project7 from "./Project_7.jsx";
 const App = () => {
   return (
     <>
@@ -25,6 +24,7 @@ const App = () => {
       <input type="checkbox" id={style.checkboxpage4} />
       <input type="checkbox" id={style.checkboxpage5} />
       <input type="checkbox" id={style.checkboxpage6} />
+      <input type="checkbox" id={style.checkboxpage7} />
       <input type="checkbox" id={style.checkboxbackcover} />
       <div className={style.book}>
         <div className={style.maincover} id={style.cover}>
@@ -152,13 +152,13 @@ const App = () => {
         </div>
         <div className={style.pages} id={style.page5}>
           <div className={style.front}>
-            <MiniProject1 />
+            <Project6 />
             <label htmlFor={style.checkboxpage5} className={style.next}>
               <p>&gt;</p>
             </label>
           </div>
           <div className={style.back}>
-            <MiniProject2 />
+            <Project7 />
             <label htmlFor={style.checkboxpage5} className={style.prev}>
               <p>&lt;</p>
             </label>
@@ -166,14 +166,28 @@ const App = () => {
         </div>
         <div className={style.pages} id={style.page6}>
           <div className={style.front}>
-            <Achievement />
+            <MiniProject1 />
             <label htmlFor={style.checkboxpage6} className={style.next}>
               <p>&gt;</p>
             </label>
           </div>
           <div className={style.back}>
-            <Services />
+            <MiniProject2 />
             <label htmlFor={style.checkboxpage6} className={style.prev}>
+              <p>&lt;</p>
+            </label>
+          </div>
+        </div>
+        <div className={style.pages} id={style.page7}>
+          <div className={style.front}>
+            <Achievement />
+            <label htmlFor={style.checkboxpage7} className={style.next}>
+              <p>&gt;</p>
+            </label>
+          </div>
+          <div className={style.back}>
+            <Services />
+            <label htmlFor={style.checkboxpage7} className={style.prev}>
               <p>&lt;</p>
             </label>
           </div>
